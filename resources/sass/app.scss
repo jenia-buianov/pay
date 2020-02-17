@@ -1,0 +1,99 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~font-awesome/scss/font-awesome';
+@import "~vue-multiselect/dist/vue-multiselect.min.css";
+@import '~vue-datetime/dist/vue-datetime.css';
+
+.navbar-brand{
+    color: #F7B733!important;
+    font-weight: bold!important;
+}
+
+.statistic-badge{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #38c172;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ecececdd;
+    border-radius: 5px;
+
+    span{
+        float: right;
+        color: black;
+        text-align: right;
+    }
+}
+
+.ti-input{
+    border: 1px solid #ced4da!important;
+    border-radius: 0.25rem!important;
+    padding: 0.25rem 0.75rem!important;
+}
+.ti-new-tag-input {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 2px);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4!important;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.ti-tag, .ti-selected-item, .flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange, .flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.endRange.nextMonthDay{
+    background: #41b883!important;
+}
+
+.ti-item{
+    padding: 12px!important;
+    min-height: 40px!important;
+    line-height: 16px!important;
+}
+
+.flatpickr-time input:hover, .flatpickr-time .flatpickr-am-pm:hover, .flatpickr-time input:focus, .flatpickr-time .flatpickr-am-pm:focus{
+    background: #41b883!important;
+    color:white;
+}
+
+.theme-orange .vdatetime-popup__header,
+.theme-orange .vdatetime-calendar__month__day--selected > span > span,
+.theme-orange .vdatetime-calendar__month__day--selected:hover > span > span {
+    background: #41b883;
+}
+
+.theme-orange .vdatetime-year-picker__item--selected,
+.theme-orange .vdatetime-time-picker__item--selected,
+.theme-orange .vdatetime-popup__actions__button {
+    color: #41b883;
+}
+
+.vdatetime-input{
+    display: block;
+    width: 100%;
+    height: calc(1.6em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-small{
+    font-size: 80%;
+    padding: 0.125rem 0.25rem;
+    line-height: 1.2rem;
+}
